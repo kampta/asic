@@ -1,0 +1,12 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+/raw_data
+/processed_data
+/logs
+/pretrained
+/.vscode
+
+*.pth
+*.sh
+dispatch.py

@@ -1,0 +1,40 @@
+name: asic
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - pillow
+  - pip
+  - python=3.9
+  - pytorch=*=*cuda11.3*
+  - cudatoolkit>=11.3
+  - scipy
+  - torchvision
+  - jupyterlab
+  - ipywidgets
+  - scikit-image
+  - faiss-gpu
+  - tensorboard
+  - pip:
+    - moviepy
+    - numpy
+    - opencv-contrib-python
+    - pandas
+    - tqdm
+    - wget
+    - ray
+    - ninja
+    - scikit-learn
+    - termcolor
+    - matplotlib
+    - ipdb
+    - ftfy
+    - regex
+    - timm
+    - seaborn
+    - einops
+    - flake8
+    - wandb
+    - kornia
+    - plotly
